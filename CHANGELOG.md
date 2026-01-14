@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-12)
+## Unreleased (2026-01-14)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3bcebe9`](https://github.com/stdlib-js/stdlib/commit/3bcebe9121e353676f8bfcb1d0f5870dc6d74146) - **refactor:** update require path _(by Athan Reines)_
 -   [`7c08a3d`](https://github.com/stdlib-js/stdlib/commit/7c08a3d15a919d79650bfc723822f0c3134e5277) - **docs:** add references _(by Athan Reines)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`223666d`](https://github.com/stdlib-js/stdlib/commit/223666db0fdb0aba4b1390d470ccc826fdaf44ab) - **chore:** clean-up _(by Athan Reines)_
