@@ -63,6 +63,11 @@ The [residual sum of squares][wikipedia-residual-sum-of-squares] (also referred 
 ## Usage
 
 ```javascript
+import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-drssbl/tags). For example,
+
+```javascript
 import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@v0.1.0-deno/mod.js';
 ```
 
@@ -170,7 +175,7 @@ var z = drssbl.ndarray( 4, x, 2, 1, y, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@v0.1.0-deno/mod.js';
+import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
