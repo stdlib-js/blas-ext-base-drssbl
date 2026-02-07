@@ -63,6 +63,11 @@ The [residual sum of squares][wikipedia-residual-sum-of-squares] (also referred 
 ## Usage
 
 ```javascript
+import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-drssbl/tags). For example,
+
+```javascript
 import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@v0.1.1-esm/index.mjs';
 ```
 
@@ -175,7 +180,7 @@ var z = drssbl.ndarray( 4, x, 2, 1, y, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@v0.1.1-esm/index.mjs';
+import drssbl from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-drssbl@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
